@@ -1,0 +1,28 @@
+-------------------------
+| T O W N T R O L L E Y |
+-------------------------
+This is the project made with farmers in mind where the farmers and customers are getting satisfied by making more money of them instead of spending them on the tansportation through multiple transport agents.
+
+This is the Complete package of the project TownTolley made using MERN stack where this contains two folders named :
+  ->server
+  ->client
+
+----------
+| SERVER |
+----------
+  -> This is completely made using node js along with mongoose and express.
+  -> Json Web Token is used for making transactions between server and client.
+  -> port 7000 is used by server by express.
+  -> mongoose is used to store the documents.
+
+----------
+| CLIENT |
+----------
+  -> The client is created using the React framework.
+  -> There are three major pages :
+          -> customer page
+          -> product page 
+          -> transport partner page
+  -> Transport page uses the Open Street Maps for making Route to the destination.
+
+Still there are many pages to get developed and left blank in terms of the code they are under development.
