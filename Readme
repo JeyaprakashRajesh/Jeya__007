@@ -1,34 +1,43 @@
--------------------------
-| T O W N T R O L L E Y |
--------------------------
-This is the project made with farmers in mind where the farmers and customers are getting satisfied by making more money of them instead of spending them on the tansportation through multiple transport agents.
+----------------
+| TOWN TROLLEY |
+----------------
 
----------------
-|  CREATED BY |
----------------
-  -> Jeyaprakash R (https://github.com/JeyaprakashRajesh)
-  -> Dharanish A M (https://github.com/Dharanish-AM)
+TOWN TROLLEY is a project designed with farmers in mind, focusing on maximizing their profits by reducing transportation costs associated with multiple agents. It connects farmers directly with customers, ensuring better earnings for both.
 
-This is the Complete package of the project TownTolley made using MERN stack where this contains two folders named :
-  ->server
-  ->client
+--------------
+| CREATED BY |
+--------------
+  -> Jeyaprakash R
+  -> Dharanish A M
+
+---------------------
+| PROJECT STRUCTURE |
+---------------------
+
+The project is built using the MERN stack and consists of two main directories:
+
+   ->server
+   ->client
 
 ----------
 | SERVER |
 ----------
-  -> This is completely made using node js along with mongoose and express.
-  -> Json Web Token is used for making transactions between server and client.
-  -> port 7000 is used by server by express.
-  -> mongoose is used to store the documents.
+
+  -> Developed with Node.js, Express, and Mongoose.
+  -> Runs on port 7000 with secure transactions handled via JSON Web Token (JWT).
+  -> Mongoose is used for document storage in MongoDB.
 
 ----------
 | CLIENT |
 ----------
-  -> The client is created using the React framework.
-  -> There are three major pages :
-          -> customer page
-          -> product page 
-          -> transport partner page
-  -> Transport page uses the Open Street Maps for making Route to the destination.
+  -> Built using the React framework.
+  -> Includes key pages:
+  -> Customer Page
+  -> Product Page
+  -> Transport Partner Page
+  -> The Transport Partner Page integrates OpenStreetMap for route planning.
+  -> Development Status
 
-Still there are many pages to get developed and left blank in terms of the code they are under development.
+-------------------------------------------------------------------------------------
+| Several pages are still under development and currently contain placeholder code. |
+-------------------------------------------------------------------------------------
