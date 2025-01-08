@@ -3,7 +3,7 @@ import bcrypt from "bcrypt";
 import { locationData, routesData } from "./mapData.js"
 
 try {
-    mongoose.connect("mongodb://localhost:27017/TOWNTROLLEY")
+    mongoose.connect("mongodb+srv://admin:admin@towntrolley.wdanr3n.mongodb.net/")
     console.log("Connected To MongoDb")
 }
 catch (err) {
